@@ -6,8 +6,8 @@ Using a variety of techniques I was able to fit a Natural Language Processor mod
 **Procedure**
 Aquiring The data:
   Using an API and a webscraping function I brought in almost 5000 posts total from two different sections of the forum Reddit.com.
-  After cleaning the data and removing deleted posts, I isolated the the "self Text" data to be my feature.
-The we vectorized the data into a bag of words model to ultimately score over 90% correct on our classifications 
+  After cleaning the data and removing deleted posts, I isolated the "self Text" data to be my feature.
+Then I vectorized the data into a bag of words model to ultimately score over 90% correct on our classifications 
 
 **Moving forward**
 Continuing this project further I would like to write a function that takes a story and applies the model to predict fact or fiction in real time
